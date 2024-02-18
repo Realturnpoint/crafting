@@ -6,7 +6,7 @@ body {
 }
 
 .crafting-calculator {
-    background-color: #00000;
+    background-color: #000;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.2);
@@ -16,7 +16,6 @@ body {
     text-align: center;
     margin-bottom: 20px;
 }
-
 .crafting-calculator label {
     display: block;
     margin-bottom: 5px;
