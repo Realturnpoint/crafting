@@ -5,6 +5,13 @@ body {
     padding: 20px;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 .crafting-calculator {
     background-color: #000;
     padding: 20px;
@@ -16,6 +23,7 @@ body {
     text-align: center;
     margin-bottom: 20px;
 }
+
 .crafting-calculator label {
     display: block;
     margin-bottom: 5px;
