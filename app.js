@@ -14,7 +14,11 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("material8"),
         document.getElementById("material9"),
         document.getElementById("material10"),
-        document.getElementById("material11")
+        document.getElementById("material11"),
+        document.getElementById("material12"),
+        document.getElementById("material13"),
+        document.getElementById("material14"),
+        document.getElementById("material15")
     ];
 
     // Database of items
@@ -62,6 +66,28 @@ document.addEventListener("DOMContentLoaded", function() {
             material8: 6,
             material11: 1
         },
+      {
+            name: "Gieter",
+            material2: 30,
+            material12: 15
+        },
+      {
+            name: "Plastic Bootje",
+            material2: 20,
+            material12: 15
+        },
+      {
+            name: "Glazen Kerstbal",
+            material13: 15,
+        },
+      {
+            name: "Metaaldetector",
+            material14: 1,
+            material2: 15,
+            material9: 10,
+            material7: 15,
+            material15: 15
+        },
     ];
 
     // Function to update item details
@@ -97,6 +123,14 @@ document.addEventListener("DOMContentLoaded", function() {
                 return "Lockpick";
             case 11:
                 return "Radio";
+            case 12:
+                return "Leeg Flesje";
+            case 13:
+                return "Lege fles glas";
+            case 14:
+                return "Printplaat";
+            case 15:
+                return "koper";
             default:
                 return "";
         }
