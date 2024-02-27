@@ -66,6 +66,12 @@ document.addEventListener("DOMContentLoaded", function() {
             material6: 3
         },
         {
+            name: "Handboeien",
+            material1: 4,
+            material3: 4,
+            material34: 4
+        },
+        {
             name: "Elektronische kit",
             material7: 3,
             material8: 3,
