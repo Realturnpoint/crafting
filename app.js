@@ -37,7 +37,8 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("material31"),
         document.getElementById("material32"),
         document.getElementById("material33"),
-        document.getElementById("material34")
+        document.getElementById("material34"),
+        document.getElementById("material35")
     ];
 
     // Database of items
@@ -207,7 +208,7 @@ document.addEventListener("DOMContentLoaded", function() {
         {
             name: "9mm Ammo Box",
             material29: 5,
-            material5: 5,
+            material35: 2,
             material30: 5
         },
         {
@@ -314,6 +315,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 return "SNS Clip";
             case 34:
                 return "Aluminium";
+            case 35:
+                return "Karton";
             default:
                 return "";
         }
